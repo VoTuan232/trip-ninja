@@ -1,0 +1,24 @@
+nav {
+    padding: 1.5rem;
+    // justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.menu {
+    color: #45565E;
+    text-align: left;
+    font: normal normal bold 16px/22px Neuzeit Grotesk;
+    letter-spacing: 0px;
+    color: #45565E;
+    opacity: 1;
+    margin-left: 2rem;
+
+    .item {
+        &:last-child {
+            margin-left: 2rem;
+        }
+    }
+}

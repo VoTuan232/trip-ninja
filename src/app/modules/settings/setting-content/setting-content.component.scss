@@ -1,0 +1,133 @@
+.setting-content {
+  padding: 1rem 2rem;
+  .header {
+    .title {
+      color: #45565e;
+      text-align: left;
+      font: normal normal normal 24px/34px Neuzeit Grotesk;
+      letter-spacing: 0px;
+      color: #45565e;
+      opacity: 1;
+    }
+    .detail {
+      color: #45565e;
+      text-align: left;
+      font: normal normal normal 16px/22px Neuzeit Grotesk;
+      letter-spacing: 0px;
+      color: #45565e;
+      opacity: 1;
+    }
+    .company {
+      display: flex;
+      align-items: center;
+      padding: 1rem 0 2rem 0;
+      .logo {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 100%;
+        border: 3px solid #45565e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+          color: #45565e;
+          text-align: left;
+          font: normal normal bold 35px/49px Neuzeit Grotesk;
+          letter-spacing: 0px;
+          color: #45565e;
+          opacity: 1;
+        }
+      }
+      .name {
+        margin-left: 1rem;
+        color: #45565e;
+        text-align: left;
+        font: normal normal normal 24px/34px Neuzeit Grotesk;
+        letter-spacing: 0px;
+        color: #45565e;
+        opacity: 1;
+      }
+
+      .icon-edit {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  form {
+    input[type=text], input[type=email] {
+        height: 2rem;
+        padding-left: .5rem;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #93A0A7;
+        border-radius: 2px;
+        opacity: 1;
+        color: #B1BBC0;
+    }
+
+    .divide {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 10px;
+      padding: 10px;
+
+      .item {
+        .form-label {
+          color: #45565e;
+          text-align: left;
+          font: normal normal bold 16px/22px Neuzeit Grotesk;
+          letter-spacing: 0px;
+          color: #45565e;
+          opacity: 1;
+        }
+        &.phone {
+            .first {
+              width: 60px;
+            }
+            .second {
+              width: 240px;
+              margin-left: 1rem;
+            }
+          }
+             &.currency {
+                 select {
+                     width: 60%;
+                     height: 39px;
+                     background: #FFFFFF 0% 0% no-repeat padding-box;
+                     border: 1px solid #DEDEDF;
+                     opacity: 1;
+                     color: #B1BBC0;
+                 }
+             }
+
+             &.calendar {
+                .form-label {
+                    margin-bottom: 2rem;
+                }
+                        label {
+                            color: #45565E;
+                            text-align: left;
+                            font: normal normal normal 14px/20px Neuzeit Grotesk;
+                            letter-spacing: 0px;
+                            color: #45565E;
+                            opacity: 1;
+                        }
+             }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .divide {
+    display: block !important;
+
+    .item {
+      &.phone {
+        input {
+          margin : .5rem 0 !important;
+        }
+      }
+    }
+  }
+}

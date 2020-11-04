@@ -1,0 +1,21 @@
+.app-setting-content {
+    max-width: 100%;
+}
+.settings {
+    .header {
+        color: #45565E;
+        text-align: left;
+        font: normal normal bold 40px/56px Neuzeit Grotesk;
+        letter-spacing: 0px;
+        color: #45565E;
+        opacity: 1;
+        padding: 1rem 0 1rem 3rem;
+    }
+
+    .box {
+        display: flex;
+        border-top: 1px solid #CACDD6;
+        height: calc(100vh - 165px);
+    }
+}
+
